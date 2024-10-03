@@ -18,7 +18,7 @@ view: order_items {
     sql: ${TABLE}.order_id ;;
   }
 
-  dimension: order_id_test {
+  dimension: order_id_test{
     type: number
     sql: ${TABLE}.id ;;
   }
