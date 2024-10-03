@@ -17,6 +17,11 @@ view: order_items {
     # hidden: yes
     sql: ${TABLE}.order_id ;;
   }
+
+  dimension: Order_id {
+    type: number
+    sql: ${TABLE}.id ;;
+  }
   dimension: phone {
     type: string
     sql: ${TABLE}.phone ;;
