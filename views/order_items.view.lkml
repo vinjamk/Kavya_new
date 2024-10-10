@@ -32,6 +32,7 @@ view: order_items {
   }
   dimension_group: returned {
     type: time
+    datatype: datetime
     timeframes: [raw, time, date, week, month, quarter, year]
     sql: ${TABLE}.returned_at ;;
   }
